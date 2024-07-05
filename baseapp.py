@@ -7,8 +7,8 @@ import re
 def create_connection():
     return mysql.connector.connect(
         host="localhost",
-        user="yourusername",   # Replace with your MySQL username
-        password="yourpassword",  # Replace with your MySQL password
+        user="root",   # Default root user
+        password="",   # Default password is often blank
         database="user_data"
     )
 
